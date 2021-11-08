@@ -1,0 +1,258 @@
+* { margin: 0; padding: 0;}
+
+.chialayer:hover .layer3 {
+    box-shadow: inset 0 0 0 30px #fff;
+}
+.chialayer:hover .layer2 {
+    opacity: 1;
+}
+section.section-5 {
+    padding: 88px;
+}
+p.mota-s5 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 64px;
+    color: white;
+}
+h6.tieude6 {
+    font-size: 14px;
+    color: white;
+    margin-left: 64px;
+    padding-top: 250px;
+}
+.layer3 {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    box-shadow: 0 0 0 0px #fff;
+    transition: 0.4s;
+}
+.layer2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29 128 145 / 70%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.4s;
+}
+img.layer1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.chialayer {
+    width: 50%;
+    height: 380px;
+    position: relative;
+}
+.chiacot-s5 {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+}
+p.mota-s3 {
+    color: hsl(0deg 0% 100% / 70%);
+}
+h5.tieude5 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.iconwf {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: #1d809f;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 100px;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+.chiacot-s3 {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 48px;
+}
+h2.tieude {
+    font-size: 48px;
+}
+h5.caption {
+    font-size: 18px;
+    color: #ecb807;
+    margin-bottom: 12px;
+}
+section.section-3 {
+    background-color: #1d809f;
+    padding: 88px;
+    color: white;
+}
+a.ups1 {
+    color: #1D809F;
+}
+p.mota-s2 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+h3.tieude-3 {
+    font-size: 32px;
+    color: #212529;
+}
+section.section-2 {
+    padding: 88px;
+}
+h4.tieude-4 {
+    font-style: italic;
+    font-size: 28px;
+    color: #212529;
+}
+h1.tieude-1 {
+    font-size: 88px;
+    color: #212529;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+}
+.section-1{
+    width: 100%;
+    height: 100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nut {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 48px;
+    cursor: pointer;
+}
+button.nut.nut-xanh {
+    color: white;
+    background-color: #1D809F;
+}
+button.nut.nut-xanh:hover{
+    background-color:#126680;
+}
+button.nut.nut-den:hover{
+    background-color:#141618;
+}
+button.nut.nut-den {
+    color: white;
+    background-color: #212529;
+}
+button.nut.nut-trang {
+    color: #212529;
+    background-color: white;
+    margin-right: 24px;
+}
+.section-4{
+    width: 100%;
+    height: 100%;
+    background-image: url(portfolio-4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2.tieude-2{
+    font-size: 56px;
+    font-weight: 700;
+    max-width: 480px;
+    color: #212529;
+}
+span{
+    font-style: italic;
+}
+h3.tieude-6 {
+    font-size: 32px;
+    color: #ffffff;
+}
+.section-6{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color:#1D809F;
+}
+button.nuticon{
+    width: 65px;
+    height: 65px;
+    color: white;
+    font-size: 24px;
+    background-color:#1D809F;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+button.nuticon:hover{
+    background-color: #135d74;
+}
+footer{
+    padding: 80px 0 80px;
+    height: 100px;
+}
+.ft { 
+    font-size: 14px;
+    color: #868e96;
+    margin: 40px 0 ;
+}
+.icon{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.icontren{
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background: rgba(52, 58, 64, 0.5);
+    z-index: 999;
+    border-radius:4px;
+    border: none;
+    cursor: pointer;
+}
+.iconduoi{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background: rgba(52, 58, 64, 0.5);
+    border-radius:4px;
+    border: none;
+    cursor: pointer;
+}
+button.icontren:hover, button.iconduoi:hover{
+    background-color: rgb(33, 36, 39);
+}
